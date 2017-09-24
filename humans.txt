@@ -1,0 +1,21 @@
+/* TEAM */
+Name: Mokshad Sakurdeep                         
+Student ID: 201600973
+
+[...]
+
+
+
+/* THANKS */
+Name: 
+
+
+[...]
+
+
+
+/* SITE */
+Last update: 2017/09/06 
+Standards: HTML5, CSS3, Javascript, PHP, Bootstrap 4.0.0-alpha.6, Node.js
+Components: jQuery
+Software: Atom, Git

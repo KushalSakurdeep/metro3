@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/KushalSakurdeep/metro3#readme",
   "dependencies": {
+    "bootstrap": "^4.0.0-alpha.6",
     "normalize.css": "^7.0.0"
   }
 }

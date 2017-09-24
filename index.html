@@ -25,6 +25,9 @@
   <!-- A <meta> viewport (device dependent user's visible area of a web page) element gives the browser instructions on how to control the page's dimensions and scaling. The width=device-width part sets the width of the page to follow the screen-width of the device (which will vary depending on the device). The initial-scale=1.0 part sets the initial zoom level when the page is first loaded by the browser.  -->
   <meta name="viewport" content="width=device-width, initial-scale=1" />
     
+  <!-- Humans -->
+  <link rel="author" href="humans.txt" />
+    
   <!-- Experimental technology - Scope for future development. Provides information about an application (such as name, author, icon, and description) in a JSON text file. The purpose of the manifest is to install web applications to the homescreen of a device, providing users with quicker access and a richer experience. -->
   <link rel="manifest" href="site.webmanifest">
     
@@ -71,11 +74,20 @@
   </head>
   
   <body>
-        <!--[if lte IE 9]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-        <![endif]-->
+    <!--[if lte IE 9]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+    <![endif]-->
 
-        <!-- Add your site or application content here -->
+    <!-- Site content here -->
+    <!-- Navigation Bar -->
+    <nav>
+      <ul>
+        <li><a href="#"><img src="img/tram-icon%20300x300.png" alt="Home" width="300" height="300"></a></li>
+        <li><a href="#">News</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+    </nav>
         <p>Hello world! This is the Open University Metro Project.</p>
         <script src="js/vendor/modernizr-3.5.0.min.js"></script>
         <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>

@@ -4,37 +4,73 @@
 <html class="no-js" lang="en">
   
   <!-- Head containing metadata-->
-    <head>
+  <head>
     
-    <!-- Behavioral Meta Data -->
-    <!-- Tells the web browser which character set to use. In this case, the character set is "utf-8". -->
-	<meta charset="utf-8" />
+  <!-- Behavioral Meta Data -->
+  <!-- Tells the web browser which character set to use. In this case, the character set is "utf-8". -->
+  <meta charset="utf-8" />
     
-    <!-- To display the webpage in edge mode, which is the highest standards mode supported by Internet Explorer, from Internet Explorer 6 through IE11. -->
-    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <!-- To display the webpage in edge mode, which is the highest standards mode supported by Internet Explorer, from Internet Explorer 6 through IE11. -->
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
     
-    <!-- Apple specific meta-tag. Sets whether a web application runs in full-screen mode. If content is set to yes, the web application runs in full-screen mode; otherwise, it does not. The default behavior is to use Safari to display web content. --> 
-    <meta name="apple-mobile-web-app-capable" content="yes" />
+  <!-- Apple specific meta-tag. Sets whether a web application runs in full-screen mode. If content is set to yes, the web application runs in full-screen mode; otherwise, it does not. The default behavior is to use Safari to display web content. --> 
+  <meta name="apple-mobile-web-app-capable" content="yes" />
     
-    <!-- Title of the webpage - will appear at the top of the browser -->
-    <title>Open University Metro Express Webpage</title>
+  <!-- Title of the webpage - will appear at the top of the browser -->
+  <title>Open University Metro Express Webpage</title>
       
-    <!-- Description of the page - used by SEO if a valid description is available. Avoid repeating words, irrelevant words or copying the title as the page may be blacklisted by search engines -->
-    <meta name="description" content="Metro Express Mauritius Online Portal" />
+  <!-- Description of the page - used by SEO if a valid description is available. Avoid repeating words, irrelevant words or copying the title as the page may be blacklisted by search engines -->
+  <meta name="description" content="Metro Express Mauritius Online Portal" />
       
-    <!-- A <meta> viewport (device dependent user's visible area of a web page) element gives the browser instructions on how to control the page's dimensions and scaling. The width=device-width part sets the width of the page to follow the screen-width of the device (which will vary depending on the device). The initial-scale=1.0 part sets the initial zoom level when the page is first loaded by the browser.  -->
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- A <meta> viewport (device dependent user's visible area of a web page) element gives the browser instructions on how to control the page's dimensions and scaling. The width=device-width part sets the width of the page to follow the screen-width of the device (which will vary depending on the device). The initial-scale=1.0 part sets the initial zoom level when the page is first loaded by the browser.  -->
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
     
-    <!-- Experimental technology - Scope for future development. Provides information about an application (such as name, author, icon, and description) in a JSON text file. The purpose of the manifest is to install web applications to the homescreen of a device, providing users with quicker access and a richer experience. -->
-    <link rel="manifest" href="site.webmanifest">
+  <!-- Experimental technology - Scope for future development. Provides information about an application (such as name, author, icon, and description) in a JSON text file. The purpose of the manifest is to install web applications to the homescreen of a device, providing users with quicker access and a richer experience. -->
+  <link rel="manifest" href="site.webmanifest">
     
-    <link rel="apple-touch-icon" href="icon.png">
-        <!-- Place favicon.ico in the root directory -->
-
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
-    </head>
-    <body>
+  <!-- Favicon for display on browser window -->
+  <link rel="apple-touch-icon-precomposed" sizes="57x57" href="img/favicon/apple-touch-icon-57x57.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/favicon/apple-touch-icon-144x144.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="60x60" href="img/favicon/apple-touch-icon-60x60.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="120x120" href="img/favicon/apple-touch-icon-120x120.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="76x76" href="img/favicon/apple-touch-icon-76x76.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="152x152" href="img/favicon/apple-touch-icon-152x152.png" />
+  <link rel="icon" type="image/png" href="img/favicon/favicon-196x196.png" sizes="196x196" />
+  <link rel="icon" type="image/png" href="img/favicon/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/png" href="img/favicon/favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="img/favicon/favicon-16x16.png" sizes="16x16" />
+  <link rel="icon" type="image/png" href="img/favicon/favicon-128.png" sizes="128x128" />
+  <meta name="application-name" content="&nbsp;"/>
+  <meta name="msapplication-TileColor" content="#FFFFFF" />
+  <meta name="msapplication-TileImage" content="img/favicon/mstile-144x144.png" />
+  <meta name="msapplication-square70x70logo" content="img/favicon/mstile-70x70.png" />
+  <meta name="msapplication-square150x150logo" content="img/favicon/mstile-150x150.png" />
+  <meta name="msapplication-wide310x150logo" content="img/favicon/mstile-310x150.png" />
+  <meta name="msapplication-square310x310logo" content="img/favicon/mstile-310x310.png" />
+    
+  <!-- Makes browsers render all elements more consistently and in line with modern standards. It precisely targets only the styles that need normalizing. Install via node package manager "npm install normalize.css" (initialize npm "npm init", install npm "npm install" first if not done -->
+  <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
+      
+  <!-- Main CSS stylesheet file for project -->
+  <link rel="stylesheet" href="css/main.css">
+    
+  <!-- Include MaxCDN Bootstrap v4.0.0-alpha.6 -->
+  <!-- Latest beta compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  
+  <!-- Latest beta jQuery library -->
+  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+  
+  <!-- Latest beta compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    
+  </head>
+  
+  <body>
         <!--[if lte IE 9]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
         <![endif]-->

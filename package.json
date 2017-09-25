@@ -17,7 +17,18 @@
   },
   "homepage": "https://github.com/KushalSakurdeep/metro3#readme",
   "dependencies": {
-    "bootstrap": "^4.0.0-alpha.6",
-    "normalize.css": "^7.0.0"
-  }
+    "bootstrap": "^4.0.0-beta",
+    "grunt-init": "^0.3.2",
+    "jquery": "^3.2.1",
+    "minimatch": "^3.0.4",
+    "normalize.css": "^7.0.0",
+    "popper.js": "^1.12.5"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-jshint": "^1.1.0"
+  },
+  "keywords": [
+    "metro3"
+  ]
 }

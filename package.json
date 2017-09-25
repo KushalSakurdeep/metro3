@@ -1,34 +1,13 @@
 {
-  "name": "metro3",
-  "version": "1.0.0",
-  "description": "metro3 project for Open University of Mauritius",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/KushalSakurdeep/metro3.git"
-  },
-  "author": "Kushal Sakurdeep",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/KushalSakurdeep/metro3/issues"
-  },
-  "homepage": "https://github.com/KushalSakurdeep/metro3#readme",
-  "dependencies": {
-    "bootstrap": "^4.0.0-beta",
-    "grunt-init": "^0.3.2",
-    "jquery": "^3.2.1",
-    "minimatch": "^3.0.4",
-    "normalize.css": "^7.0.0",
-    "popper.js": "^1.12.5"
+  "engines": {
+    "node": ">= 0.10.0"
   },
   "devDependencies": {
-    "grunt": "^1.0.1",
-    "grunt-contrib-jshint": "^1.1.0"
-  },
-  "keywords": [
-    "metro3"
-  ]
+    "grunt": "~0.4.5",
+    "grunt-contrib-concat": "~0.4.0",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-qunit": "~0.5.2",
+    "grunt-contrib-uglify": "~0.5.0",
+    "grunt-contrib-watch": "~0.6.1"
+  }
 }
